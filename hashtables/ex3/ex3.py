@@ -1,6 +1,6 @@
 def intersection(arrays):
     """
-    1. create a list 'hash_tables' to store a hash table for each array in
+    1. create a list 'hash_tables' to store a hash table for each array in arrays
     2. for each array in arrays:
        - create a hash table with a key for each number in the array
        - push the hash table into the hash_tables list
