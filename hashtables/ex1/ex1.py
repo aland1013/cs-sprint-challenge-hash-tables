@@ -1,11 +1,12 @@
 def get_indices_of_item_weights(weights, length, limit):
     """
-    create an empty hash table
-    for each weight in weights:
-        - calculate the target by subtracting weight from limit
-        - if the target is stored in the hash table, return the 
-          current index and the target index
-        - else, store the index and weight in the hash table
+    1. create an empty hash table
+    2. for each weight in weights:
+       - calculate the target by subtracting weight from limit
+       - if the target is stored in the hash table, return the 
+         current index and the target index
+       - else, store the index and weight in the hash table
+         and move to the next weight
     """
     ht = {}
     
